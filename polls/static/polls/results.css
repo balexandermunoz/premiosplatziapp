@@ -1,0 +1,27 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    font-size: 1.5rem;
+}
+
+a{
+    margin-left: 40px;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 10px;
+
+    background: linear-gradient(to right, hsl(98, 100%, 62%), hsl(204, 100%, 59%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
